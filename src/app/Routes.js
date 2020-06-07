@@ -25,9 +25,9 @@ export function Routes() {
         <Switch>
             {!isAuthorized ? (
                 /*Render auth page when user at `/auth` and not authorized.*/
-                <Route>
-                    <AuthPage />
-                </Route>
+                <Layout>
+                    <BasePage/>
+                </Layout>
             ) : (
                 /*Otherwise redirect to root page (`/`)*/
                 <Redirect from="/auth" to="/"/>

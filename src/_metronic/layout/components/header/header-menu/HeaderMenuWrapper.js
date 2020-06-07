@@ -38,9 +38,9 @@ export function HeaderMenuWrapper() {
                 <>
                     {/*begin::Header Logo*/}
                     <div className="header-logo">
-                        <Link to="/">
+                        <a href="https://tiktokcollab.com">
                             <img alt="logo" src={getHeaderLogo()}/>
-                        </Link>
+                        </a>
                     </div>
                     {/*end::Header Logo*/}
                 </>

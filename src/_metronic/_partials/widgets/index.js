@@ -16,3 +16,7 @@ export {StatsWidget12} from "./stats/StatsWidget12";
 // Advance tables
 export {AdvanceTablesWidget2} from "./advance-tables/AdvanceTablesWidget2";
 export {AdvanceTablesWidget4} from "./advance-tables/AdvanceTablesWidget4";
+
+// Custom Widgets
+export {UserCommentWidget} from "./custom/UserCommentWidget";
+export {UserCommentHeaderWidget} from "./custom/UserCommentHeaderWidget";
