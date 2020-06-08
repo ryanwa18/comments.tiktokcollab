@@ -23,14 +23,8 @@ export default function BasePage() {
 
     return (
         <Suspense fallback={<LayoutSplashScreen/>}>
-            <Switch>
-                {
-                    /* Redirect from root URL to /dashboard. */
-                    <Redirect exact from="/" to="/users-comments"/>
-                }
-                <ContentRoute path="/users-comments" component={UsersComments}/>
-                <Redirect to="error/error-v1"/>
-            </Switch>
+              <Redirect exact from="/" to="/users-comments"/>
+              <ContentRoute path="/users-comments" component={UsersComments}/>
         </Suspense>
     );
 }

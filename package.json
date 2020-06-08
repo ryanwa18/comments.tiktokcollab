@@ -1,10 +1,10 @@
 {
-    "name": "demo1",
+    "name": "comments.tiktokcollab",
     "version": "7.0.4",
     "private": true,
-    "homepage": "https://keenthemes.com/metronic/preview/react/demo1",
+    "homepage": "https://goofy-gates-8723c8.netlify.app/",
     "scripts": {
-        "serve": "cp-cli build _site/react/preview/react/demo1 && serve",
+        "serve": "cp-cli build _site/ && serve",
         "start": "react-scripts start -o",
         "build": "react-scripts build",
         "test": "react-scripts test",
