@@ -16,7 +16,7 @@ export function UserCommentHeaderWidget({ className }) {
         <div className="row m-0">
             <div className="col bg-light-primary px-6 py-8 rounded-xl mr-7 mb-7">
               <p className="text-primary font-weight-bold font-size-h1">
-                2
+                1
               </p>
               <a
                 href="#"

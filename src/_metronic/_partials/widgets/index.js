@@ -20,3 +20,4 @@ export {AdvanceTablesWidget4} from "./advance-tables/AdvanceTablesWidget4";
 // Custom Widgets
 export {UserCommentWidget} from "./custom/UserCommentWidget";
 export {UserCommentHeaderWidget} from "./custom/UserCommentHeaderWidget";
+export {UserAddWidget} from "./custom/UserAddWidget";
